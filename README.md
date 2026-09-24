@@ -61,7 +61,7 @@ If you're using an AI coding agent (Claude Code, Copilot, etc.), you can simply 
 Clone this template over HTTPS into a new folder for your team:
 
 ```bash
-git clone https://github.com/<org>/amex-healthcare-template.git my-track-name
+git clone https://github.com/cch-techbold/amex-healthcare-template.git my-track-name
 cd my-track-name
 ```
 
