@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap");
+@import "tailwindcss";
+
+/*
+  AMEX Healthcare brand tokens (Brand Guidelines v1.0 / 2026)
+  Primary: Oxblood + Charcoal + White. Secondary: Air Force Blue, Cool Steel, Dusty Olive.
+  Typography: Merriweather for headings, Montserrat for body text.
+*/
+@theme {
+  --color-oxblood: #941612;
+  --color-oxblood-dark: #6e0f0c;
+  --color-charcoal: #575656;
+  --color-brand-white: #fefdfd;
+  --color-air-force-blue: #5e8197;
+  --color-cool-steel: #9db2bf;
+  --color-dusty-olive: #7e9478;
+
+  --font-heading: "Merriweather", Georgia, serif;
+  --font-body: "Montserrat", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-brand-white);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
